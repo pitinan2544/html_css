@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(174, 9, 103);
+    border: 2px dashed black;
+}
+.container{
+    background-color: coral;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    margin-right: auto;
+}
+.item{
+    border: 1px dashed rgb(16, 14, 14);
+    width: fit-content;
+    margin: auto;
+    
+}

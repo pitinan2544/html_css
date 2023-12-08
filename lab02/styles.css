@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aquamarine;
+    position: absolute;
+    inset : 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card::before {
+    content: 'x';
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    font-size: 24px;
+    color: #999;
+}
+
+.card::after {
+    content: '9';
+    position : absolute;
+    top:-1rem;
+    right:-1rem;
+    padding: 10px 14px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+.card {
+    width: 250px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+
+.card img {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.card h4 {
+    text-align: center;
+    padding-block: 1.5rem;
+    border-top: 1px solid #ccc;
+}
